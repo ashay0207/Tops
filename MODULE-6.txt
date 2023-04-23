@@ -1,0 +1,53 @@
+#tops
+#assingment
+Module-6 
+
+What are the advantages of Bootstrap? 
+> Advantages of Bootstrap:
+  Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap.
+  Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops.
+  Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework.
+  
+  
+What is a Bootstrap Container, and how does it work?
+>Containers are the most basic layout element in Bootstrap and are required when using our default grid system. 
+Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container.
+
+
+What are the default Bootstrap text settings? 
+>Default text size are font-size of 16px, and its line-height is 1.5.
+
+What do you know about the Bootstrap Grid System?
+>Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive.
+
+
+What is the difference between Bootstrap 4 and Bootstrap 5 ?
+>In bootstrap 4 the positioning feature is absent.And in bootstrap 5 columns can be positioned.
+Bootstrap 4 is having Less CSS usability.Bootstrap 5 has More CSS properties also customized properties.
+Bootstrap 4 Uses default form development tools. And bootstrap 5 uses Better development of forms.
+In bootstrap 4 There is no offcanvas component and in bootstrap 5 The offcanvas component is added.
+
+
+What is a Button Group, and what is the class for a basic Button Group? 
+>Button groups allow multiple buttons to be stacked together on a single line
+>.btn-group	 is the basic group.
+
+
+How can you use Bootstrap to make thumbnails? 
+>Step 1: The first step is to include the Bootstrap and jQuery CDN into the head tag before having CSS's stylesheets.
+
+Step 2: We need to create a div tag in our HTML body. We will create three div sections for each image in this div tag. 
+
+Step 3: We can add various col properties for making our page responsive, like col-sm-6 or col-md-3. 
+
+Step 4: You need to create an anchor tag <a>, with a class name - .thumbnail wrapped around an image tag. 
+
+In Bootstrap 4, what is flexbox? 
+>Flexbox is used to quickly manage the layout, alignment and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities.
+
+How can one create an alert in Bootstrap? 
+>Alerts are created with the .alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger:
+
+What is a bootstrap card and how would you create one? 
+>Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.
+>Add the .card class to a <div> element and inside the <div> element, add another <div> element with the .card-body class to create a basic Bootstrap card. You can add text inside the inner <div> element. This is the most basic card that you can create, and it is a body-only card.
