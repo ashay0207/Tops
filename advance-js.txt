@@ -23,3 +23,38 @@ Module-1
 > 2 will be the ouput of the code above.
 
 5)
+
+6)USING ARROW:
+
+ >    function ask(question, yes, no) {
+          if (confirm(question)) yes();
+          else no();
+        }
+
+        ask(
+          "Do you agree?",
+          () => alert("You agreed."),
+          () => alert("You canceled the execution.")
+        );
+      
+      
+ #Module -2
+ 1)
+        let user = {};
+        user.name = "John";
+        user.surname = "Smith";
+        user.name = "Pete";
+        delete user.name;
+        
+2)      
+      array length: 4
+
+3)  let john = { name: "John", age: 25 };
+    let pete = { name: "Pete", age: 30 }; 
+    let mary = { name: "Mary", age: 28 };  
+    let users = [ john, pete, mary ]; 
+    let names =  users.map(items=>items.name);
+    alert( names ); // John, Pete, Mary
+
+      
+      
