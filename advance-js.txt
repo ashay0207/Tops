@@ -1,0 +1,25 @@
+Advance JS 
+Module-1
+
+1)Write a program to Show an alert.
+> 
+  <script>
+  window.alert("This is and alert box!);
+  </script>
+  
+2)What will be the result for these expressions?
+      1. 5 > 4                    ANSWER:TRUE
+      2. "apple" > "pineapple"    ANSWER:FALSE
+      3. "2" > "12"               ANSWER:FALSE
+      4. undefined == null        ANSWER:TRUE
+      5. undefined === null       ANSWER:FALSE
+      6. null == "\n0\n"          ANSWER:FALSE
+      7. null === +"\n0\n"         ANSWER:FALSE
+      
+3)if ("0") { alert( 'Hello'); } 
+>  Alert will be shown as string "0" will considered as true value.
+
+4)● What is the code below going to output? alert( null || 2 || undefined );
+> 2 will be the ouput of the code above.
+
+5)
