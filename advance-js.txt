@@ -105,3 +105,27 @@ alert( isAdmin )
 let user1 = JSON.stringyfy(user);
       
       
+#Module 4
+1)<body>
+    <p>CLICK TO SHOW OR HIDE PASSWORD</p>
+    <input type="password" name="" id="pass">
+    <input type="checkbox" name="" onclick="passwordText()">
+    <p>SHOW PASSWORD</p>
+</body>
+  <script>
+    function passwordText()
+        {
+            let x = document.getElementById("pass");
+
+            if( x.type=="password")
+            {
+                x.type="text";
+            }
+            else
+            {
+                x.type="password";
+            }
+        }
+    </script>
+    
+2)    
