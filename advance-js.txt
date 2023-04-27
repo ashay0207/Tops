@@ -98,5 +98,10 @@ alert( name ); // John
 alert( age ); // 30
 alert( isAdmin )
 
+7) let user = {
+  name: "John Smith",
+  age: 35
+};
+let user1 = JSON.stringyfy(user);
       
       
